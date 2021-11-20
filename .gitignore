@@ -136,8 +136,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
 drives/easy/
-drives/medium/
 drives/hard/
-
+drives/medium/
