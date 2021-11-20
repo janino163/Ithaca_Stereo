@@ -14,7 +14,7 @@ import matplotlib.image as mpimg
 import cv2
 import matplotlib.pyplot as plt
 from matplotlib import cm
-from pcutils.plotly_utils import *
+# from pcutils.plotly_utils import *
 __all__ = ["utctoweekseconds", "read_inspva_os2", "read_bestpos_os2", "read_corrimu_os2", "dofs2imu", "oxts2pose", "get_infos_os2", "motion_compensation", "transform_points","load_velo_scan", "cart2hom"]
 
 IMU = namedtuple('IMU', ['lat', 'lon', 'alt', 'roll', 'pitch', 'yaw'])
