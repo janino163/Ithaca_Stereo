@@ -13,6 +13,16 @@ conda install -c anaconda ipykernel
 ```
 python -m ipykernel install --user --name=stereo
 ```
+Install either the gpu version of pytorch
+
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+```
+or cpu version
+
+```
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+```
 
 ```
 pip install -r requirements.txt
